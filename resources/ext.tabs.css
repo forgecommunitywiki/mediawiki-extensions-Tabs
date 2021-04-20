@@ -85,7 +85,7 @@ body.tabs-oldbrowserscript .tabs-content {display: none;}
 	position: relative;
 	border: 1px solid #AAA;
 	width: inherit; /*This will cause the width to be inherited from the main tab, and enables the possibility to use width: inherit within the tab itself too */
-	max-width: inherit;
+	max-width: 100%;
 	min-width: inherit;
 	z-index: 1; /* unselected tab is positioned below the content this way */
 }
@@ -122,7 +122,7 @@ body.tabs-oldbrowserscript .tabs-content {display: none;}
 	display: inline-block; /* this is to make the box the minimal width it needs to be */
 	width: inherit;
 	min-width: inherit;
-	max-width: inherit;
+	max-width: 100%;
 	padding: 0;
 	border-radius: 8px;
 }
@@ -145,7 +145,7 @@ body.tabs-oldbrowserscript .tabs-content {display: none;}
 .tabs-dropdown .tabs-container {
 	width: inherit;
 	min-width: inherit;
-	max-width: inherit;
+	max-width: 100%;
 	position: relative;
 }
 .tabs-dropdown >*> .tabs-content {
@@ -172,13 +172,13 @@ body.tabs-oldbrowserscript .tabs-content {display: none;}
 .tabs-dropdown li ol {
 	width: inherit;
 	min-width: inherit;
-	max-width: inherit;
+	max-width: 100%;
 	box-shadow: 2px 3px 5px #888;
 }
 .tabs-dropdown li {
 	width: inherit;
 	min-width: inherit;
-	max-width: inherit;
+	max-width: 100%;
 }
 
 .tabs-dropdown >*> .tabs-label,
@@ -230,7 +230,7 @@ body.tabs-oldbrowserscript .tabs-content {display: none;}
 	margin: 0; /*remove initial margins*/
 	width: inherit;
 	min-width: inherit;
-	max-width: inherit;
+	max-width: 100%;
 }
 .tabs-dropdown li ul,
 .tabs-dropdown li ol {
@@ -284,7 +284,7 @@ body.tabs-oldbrowserscript .tabs-content {display: none;}
 }
 .tabs-dropdown a,
 .tabs-dropdown a:hover,
-.tabs-dropdown a: visited {
+.tabs-dropdown a:visited {
 	color: #15B;
 }
 .tabs-dropdown a:active {
