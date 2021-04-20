@@ -284,7 +284,7 @@ body.tabs-oldbrowserscript .tabs-content {display: none;}
 }
 .tabs-dropdown a,
 .tabs-dropdown a:hover,
-.tabs-dropdown a: visited {
+.tabs-dropdown a:visited {
 	color: #15B;
 }
 .tabs-dropdown a:active {
